@@ -101,7 +101,7 @@ jobs:
 
   - checkout: self
     clean: 'true'
-    fetchDepth: '0'
+    fetchDepth: '1'
     submodules: 'true'
     path: openvino
 
