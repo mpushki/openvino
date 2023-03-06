@@ -134,10 +134,7 @@ jobs:
     displayName: 'Make directories'
 
   - checkout: self
-    clean: 'true'
-    fetchDepth: 10
-    submodules: 'true'
-    path: openvino
+    fetchDepth: 100
 
   - checkout: openvino_contrib
     clean: 'true'
