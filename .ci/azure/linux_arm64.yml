@@ -52,6 +52,7 @@ jobs:
 
   variables:
     system.debug: true
+    Agent.Source.Git.ShallowFetchDepth: 0
     VSTS_HTTP_RETRY: 5
     VSTS_HTTP_TIMEOUT: 200
     PYTHON_ARM_VERSION: "3.10.6"
