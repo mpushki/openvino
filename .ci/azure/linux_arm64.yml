@@ -134,6 +134,9 @@ jobs:
     displayName: 'Make directories'
 
   - checkout: self
+    clean: 'true'
+    submodules: 'true'
+    path: openvino
 
   - checkout: openvino_contrib
     clean: 'true'
