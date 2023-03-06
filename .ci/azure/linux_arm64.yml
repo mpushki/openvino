@@ -135,13 +135,12 @@ jobs:
 
   - checkout: self
     clean: 'true'
-    fetchDepth: 0
+    fetchDepth: 10
     submodules: 'true'
     path: openvino
 
   - checkout: openvino_contrib
     clean: 'true'
-    fetchDepth: 0
     submodules: 'true'
     path: openvino_contrib
 
