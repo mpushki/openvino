@@ -42,7 +42,7 @@ resources:
 variables:
   - group: github
   - name: Agent.Source.Git.ShallowFetchDepth
-    value: 2000
+    value: 3000
 
 jobs:
 - job: linux_arm64
