@@ -141,6 +141,7 @@ jobs:
 
   - checkout: openvino_contrib
     clean: 'true'
+    fetchDepth: 0
     submodules: 'true'
     path: openvino_contrib
 
