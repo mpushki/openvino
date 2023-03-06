@@ -41,6 +41,8 @@ resources:
 
 variables:
   - group: github
+  - name: Agent.Source.Git.ShallowFetchDepth
+    value: 2000
 
 jobs:
 - job: linux_arm64
@@ -52,7 +54,6 @@ jobs:
 
   variables:
     system.debug: true
-    Agent.Source.Git.ShallowFetchDepth: 1000
     VSTS_HTTP_RETRY: 5
     VSTS_HTTP_TIMEOUT: 200
     PYTHON_ARM_VERSION: "3.10.6"
